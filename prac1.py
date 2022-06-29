@@ -112,3 +112,15 @@ def evenn(*args):
             out.append(xx)
     return out    
                 
+# skyline returning string where even letters in upppercase and odd letters in lower case
+
+def act(string):
+    new_string=''
+    
+    for a in range(len(string)):
+        if a%2==0:
+            new_string +=string[a].upper()
+        else:
+            new_string += string[a].lower()
+            
+    return new_string   
