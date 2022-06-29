@@ -63,4 +63,52 @@ k=[wrd[0] for wrd in stringg.split()]
 print(k)
 print(stringg.split())
 
+####
+def myfunc(a):
+    
+    if a == True:
+        return 'Hello'
+    elif a == False:
+        return 'Goodbye'
         
+#function using boolean
+
+def myfunc(x,y,z):
+    if z==True:
+        return x
+    elif z==False:
+        return y
+
+#function simple math
+
+def myfunc(a,b):
+    return a+b
+ 
+# using *args
+
+def summm(*args):
+    return sum(args)
+
+def myfun(*args):
+    for items in args:
+        print(items)
+    print(*args)
+    
+# **kwargs for dictionary
+
+def mydt(**kwargs):
+    if 'fruit' in kwargs:
+        print("this fruit is my choice {}".format(kwargs['fruit']))
+    else:
+        print("this is not my fruit")
+        
+# picking evens using args
+
+def evenn(*args):
+    
+    out=[]
+    for xx in args:
+        if xx%2==0:
+            out.append(xx)
+    return out    
+                
