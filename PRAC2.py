@@ -67,6 +67,17 @@ def almostthere(n):
     
 ## LEVEL TWO PROBLEM ## 
 
+## LEVEL TWO PROBLEM ## 
+
+# return true If this list or array contains a three next to a three somewhere.
+
+def has_33(nums):
+    
+    for i in range(len(nums)-1):
+        
+        if nums[i] == 3 and nums[i+1] == 3:
+            return True
+        return False    
 
 
 
