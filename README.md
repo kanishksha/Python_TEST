@@ -17,3 +17,13 @@ revision of all Python concepts
 #13. Write a Python program to extract digits from given string
 #14. Write a Python program to split strings using newline delimiter
 #15. Given a string as your input, delete any reoccurring character, and return the new string.
+
+
+#1. Sherlock Holmes is solving a case, and he is trying to find out if a Ransom Note belongs to a magazine
+#2. Help the Merchant to count the number of pair of socks 
+#3. Stacking up empty boxes: Amazon workers are trying to stack up empty boxes at the end
+#4. Factory workers fill in missing time entries
+#5. Given a string as your input, delete any recurring character, and return the new string.
+#6. Essay Exam Competition: Average Word Length in a statement
+#7. Analyze if a stock price has always gone up or always gone down
+#8. how many toys boy can buy
